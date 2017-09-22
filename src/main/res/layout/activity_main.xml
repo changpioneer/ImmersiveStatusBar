@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@mipmap/main"
+    tools:context="news.pioneer.com.mydemo.MainActivity">
+
+    <Button
+        android:id="@+id/btn_system"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="系统方式沉浸式状态栏实现"
+        android:textSize="24sp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:background="#d4a9a5a5"
+        android:textColor="#cc000000"
+         />
+
+    <Button
+        android:id="@+id/btn_dynamic"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="动态添加布局实现沉浸式状态栏"
+        android:textSize="24sp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:background="#d4a9a5a5"
+        android:textColor="#cc000000"
+        />
+
+    <Button
+        android:id="@+id/btn_third"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用第三方库实现沉浸式状态栏"
+        android:textSize="24sp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:background="#d4a9a5a5"
+        android:textColor="#cc000000"
+        />
+</LinearLayout>
